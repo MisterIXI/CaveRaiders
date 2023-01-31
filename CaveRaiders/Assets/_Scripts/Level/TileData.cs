@@ -1,22 +1,20 @@
-using System.Collections.Generic;
+using Unity;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using System;
-public static class TileData
+
+[Serializable]
+public class TileData
 {
-    public enum Type{
-        Floor,
-        Ceiling,
-        Wall,
-        CornerIn,
-        CornerOut
+    public TileData(Vector2Int pos, ITile script)
+    {
+        Pos = pos;
+        Script = script;
+        Settings = script.Settings;
     }
-    // array with 3 times a list of 1,2,3,4
-    public static Dictionary<Type, int[]> _tileData = new Dictionary<Type, int[]>{
-        {Type.Floor, new int[]{0,2,3,0,3,1}},
-        {Type.Wall, new int[]{0,6,7,0,7,1}},
-        {Type.CornerIn, new int[]{0,6,7,0,7,5}},
-        {Type.CornerOut, new int[]{0,2,7,0,7,1}},
-        {Type.Ceiling, new int[]{4,7,5,4,6,7}}
-    };
+    public Vector2Int Pos;
+    public ITile Script;
+    public TileSettings Settings;
+    public Tile Tile;
 }

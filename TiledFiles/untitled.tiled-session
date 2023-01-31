@@ -1,0 +1,49 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "#BaseTileSet": {
+            "scaleInEditor": 1
+        },
+        "TilemapBase.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 23
+        },
+        "untitled.tmj": {
+            "scale": 11.948888888888888,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 38.91575227822206,
+                "y": 29.960944764738706
+            }
+        }
+    },
+    "last.imagePath": "F:/QuiccProg/CaveRaiders/TiledFiles",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 5,
+    "map.tileWidth": 5,
+    "openFiles": [
+        "TilemapBase.tsx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "TilemapBase.tsx",
+        "untitled.tmj"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 1,
+    "tileset.tileSize": {
+        "height": 5,
+        "width": 5
+    }
+}
